@@ -127,11 +127,6 @@ strong {
     font-size: 150%;
 }
 
-#classic {
-    position: absolute;
-    top: 10%;
-}
-
 #project-details {
     position: absolute;
     top: 11%;
@@ -141,6 +136,12 @@ strong {
     flex-direction: column;
     justify-content: space-between;
 }
+
+#classic {
+    position: absolute;
+    top: 10%;
+}
+
 
 #detail-sep {
     border: 1px solid gray;
@@ -166,6 +167,10 @@ strong {
     left: 25%;
 }
 
+#showcase-img > img {
+    height: 100%;
+}
+
 #showcase-img {
     position: absolute;
     height: 30%;
@@ -174,8 +179,4 @@ strong {
     justify-content: space-between;
     right: 2%;
     bottom: 5%;
-}
-
-#showcase-img > img {
-    height: 100%;
 }
