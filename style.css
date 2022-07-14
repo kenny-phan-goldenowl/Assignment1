@@ -95,19 +95,13 @@ body {
 
 #big-title {
     position: absolute;
-    height: 50%;
-    bottom: 20%;
+    height: 60%;
+    bottom: 18%;
     left: 13%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-}
-
-#current-page {
-    color: white;
-    font-size: 150%;
-    font-weight: bold;
 }
 
 strong {
@@ -126,9 +120,20 @@ strong {
 }
 
 .white-name {
+    font-family: 'Raleway';
+    font-style: normal;
     color: white;
     font-size: 100px;
-    font-weight: bolder;
+    font-weight: 600;
+}
+
+.top {
+    top: 300px;
+    margin-bottom: 0px;
+}
+
+.bottom {
+    margin-top: 0px;
 }
 
 #case-study {
@@ -140,21 +145,33 @@ strong {
 #more-case {
     font-weight: bolder;
     color: white;
-    font-size: 150%;
+    font-size: 190%;
 }
 
 #project-details {
     position: absolute;
     top: 11%;
-    right: 14%;
+    right: 15%;
     height: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.big-title-top {
-    top: 30px;
+#prev-next {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12%;
+    font-size: 18px;
+}
+
+#current-page {
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 28px;
 }
 
 #classic {
@@ -164,18 +181,26 @@ strong {
 
 
 #detail-sep {
-    border: 1px solid gray;
-    width: 50%;
+    border: 2px solid rgba(128, 128, 128, 0.596);
+    width: 35%;
 }
 
 #details {
-    color: #BFBABA;
+    color: #bfbabaea;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 40%;
+    justify-content: space-between;
+    height: 300px;
     font-weight: bold;
-    font-size: 130%;
+    font-size: 200%;
+}
+
+#year {
+    margin: 20px 0;
+}
+
+#details-name {
+    margin-bottom: 60px;
 }
 
 #main .line {
