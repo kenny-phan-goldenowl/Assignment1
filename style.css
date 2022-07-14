@@ -13,7 +13,7 @@ body {
 }
 
 #nav {
-    width: 140px;
+    width: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,14 +183,15 @@ strong {
 #detail-sep {
     border: 2px solid rgba(128, 128, 128, 0.596);
     width: 35%;
+    margin-bottom: 50px;
 }
 
 #details {
     color: #bfbabaea;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
+    justify-content: space-around;
+    height: 200px;
     font-weight: bold;
     font-size: 200%;
 }
@@ -199,13 +200,17 @@ strong {
     margin: 20px 0;
 }
 
+#int-ext {
+    margin-bottom: 35px;
+}
+
 #details-name {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 #main .line {
     background-color: white;
-    width: 39%;
+    width: 40%;
     height: 2px;
     position: absolute;
     top: 11%;
