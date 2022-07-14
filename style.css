@@ -13,7 +13,7 @@ body {
 }
 
 #nav {
-    width: 150px;
+    width: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #line1 {
@@ -40,17 +40,23 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 25%;
+    height: 20%;
 }
 
 .social-icon {
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.icon2 {
+    margin: 30px 0;
 }
 
 #double-lines .line {
-    width: 69px;
+    width: 67px;
     background-color: black;
-    border: 4px solid;
+    border: 3.65px solid;
 }
 
 .line2 {
@@ -65,6 +71,7 @@ body {
     line-height: 41px;
     margin-top: 35px;
     color: black;
+    letter-spacing: -1px;
     transform: rotate(-90deg);
 }
 
