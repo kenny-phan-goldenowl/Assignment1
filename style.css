@@ -22,7 +22,7 @@ body {
 }
 
 #double-lines {
-    width: 100%;
+    margin-top: 70px;
     height: 13px;
     display: flex;
     flex-direction: column;
@@ -30,9 +30,18 @@ body {
     justify-content: space-around;
 }
 
-#line1 {
-    margin: 100px   ;
+
+.line2 {
+    padding: 0;
+    margin-top: 7.5px;
 }
+
+#double-lines .line {
+    width: 67px;
+    background-color: black;
+    border: 3.85px solid;
+}
+
 
 #social {
     display: flex;
@@ -53,25 +62,15 @@ body {
     margin: 30px 0;
 }
 
-#double-lines .line {
-    width: 67px;
-    background-color: black;
-    border: 3.65px solid;
-}
-
-.line2 {
-    margin-top: 7.5px;
-}
-
 .transform-title {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 41px;
     margin-top: 35px;
     color: black;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     transform: rotate(-90deg);
 }
 
@@ -84,21 +83,21 @@ body {
 #bg-img {
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
 
 .white-heading {
     color: white;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 #big-title {
     position: absolute;
     height: 50%;
     bottom: 20%;
-    left: 12%;
+    left: 13%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -128,7 +127,7 @@ strong {
 
 .white-name {
     color: white;
-    font-size: 4rem;
+    font-size: 100px;
     font-weight: bolder;
 }
 
@@ -154,6 +153,10 @@ strong {
     justify-content: space-between;
 }
 
+.big-title-top {
+    top: 30px;
+}
+
 #classic {
     position: absolute;
     top: 10%;
@@ -177,11 +180,11 @@ strong {
 
 #main .line {
     background-color: white;
-    width: 45%;
+    width: 39%;
     height: 2px;
     position: absolute;
     top: 11%;
-    left: 25%;
+    left: 25.4%;
 }
 
 #showcase-img > img {
